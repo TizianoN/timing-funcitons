@@ -5,23 +5,21 @@ const secondsEl = document.getElementById("seconds");
 const titleEl = document.getElementById("title");
 
 // ESEMPIO 1: PASTA
-titleEl.innerHTML = "Butta la pasta!";
-let secondsPasta = 12;
-const clockPasta = setInterval(buttaLaPasta, 1000);
-
-function buttaLaPasta() {
-	if (secondsPasta >= 0) {
-		secondsEl.innerHTML = (secondsPasta < 10) ? '0' + secondsPasta : secondsPasta;
-		secondsPasta--;
-
-	} else {
-		clearInterval(clockPasta);
-		myConfetti({
-			particleCount: 100,
-			spread: 160
-		});
-	}
-}
+// titleEl.innerHTML = "Butta la pasta!";
+// let secondsPasta = 5;
+// buttaLaPasta();
+// const clockPasta = setInterval(buttaLaPasta, 1000);
+// function buttaLaPasta() {
+// 	secondsPasta--;
+// 	secondsEl.innerHTML = (secondsPasta < 10) ? '0' + secondsPasta : secondsPasta;
+// 	if (secondsPasta <= 0) {
+// 		clearInterval(clockPasta);
+// 		confetti({
+// 			particleCount: 100,
+// 			spread: 160
+// 		});
+// 	}
+// }
 
 // ESEMPIO 2: CRONOMETRO
 // titleEl.innerHTML = "Cronometro";
