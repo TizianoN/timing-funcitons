@@ -1,49 +1,23 @@
-/*
-    Colori:
-    color blue: #3535EC;
-    color blue dark: #120945;
-    color gray: #D4D7F5;
-    color-green: #306753;
-    color pink: #DE7EB6;
-    color yellow: #F2AD41;
-    color white: #ffffff;
-*/
-
-/* CSS Reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-}
-
 body {
     background-color: #3535EC;
     font-family: 'Livvic', sans-serif;
     line-height: 1;
-}
 
-.container {
-    width: 350px;
-    margin: 32px auto 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stage {
-    position: relative;
-    height: 600px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .panel {
     background-color: #120945;
     padding: 16px 24px;
     border-radius: 8px;
-
-    position: absolute;
-    top: 90px;
-    width: 100%;
 }
 
 h1 {
